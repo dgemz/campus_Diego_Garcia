@@ -6,12 +6,6 @@ if numprod<36:
 elif numprod>=36:
     prom=numprod*0.15
     descuento=numprod-prom
-regalo=0
-
-if numprod>=48:
-  
-    docenas=numprod/12
-    regalo=docenas-3
-
-
-print(f"El monto final de su compra es {total} pero se le aplico un descuento el cual fue de ${prom}, por lo tanto su monto a pagar es de {descuento}, y se le regala {regalo} unidad del producto.")
+docenas=numprod/12
+regalo=docenas-3
+print(f"El monto final de su compra es ${total} pero se le aplico un descuento el cual fue de ${prom}, por lo tanto su monto a pagar es de ${descuento}, y se le regala {regalo} unidades del producto.")
